@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Frango Assado Moreira</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-drumstick-bite" id="nav_logo"> Chicken</i>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+        </div>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O melhor frango do Estado de
+                    <span> Goiás!</span>
+                </h1>
+
+                <p class="description">
+                    Venha experimentar o melhor frango assado do estado de Goiás. Estamos abertos Sábado, Domindo e
+                    Feriados!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+                    <a href="tel:62992932542" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (62)992932542
+                    </a>
+                </div>
+
+                <div class="social_media-buttons">
+                    <a href="https://wa.me/62992932542">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/frango_assadomoreira">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/frango.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subitle">Acompanhamentos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/costela2.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Costela Bovina
+                    </h3>
+
+                    <span class="dish-description">
+                        Costela bovina assada no tempeiro especial
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/farofa.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Farofinha de fígado
+                    </h3>
+
+                    <span class="dish-description">
+                        Farofa de figado de galinha com farinha amarela e tempeiros especiais
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$2,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/Batata.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Batata Assada
+                    </h3>
+
+                    <span class="dish-description">
+                        Batata assada junto com o frango e com orégano em cima (opcional)
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$5,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/arroz.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Arroz branco
+                    </h3>
+
+                    <span class="dish-description">
+                        Porção de arroz cristal no tempeiro brasileiro
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+
+
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/feijao.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Feijão tropeiro
+                    </h3>
+
+                    <span class="dish-description">
+                        Feijão tropeiro com bacon, linguiça e torresmo
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonials_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subitle">
+                    Oque os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedbacks">
+                        <img src="src/images/usuaio1.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Fernando
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </span>
+                            </p>
+                            <p>
+                                "Eu amei, o atendimento é muito bom e é tudo muito gostoso!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedbacks">
+                        <img src="src/images/usuario2.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Cesília A.S
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+
+                                </span>
+                            </p>
+                            <p>
+                                "Superorou as expectativas total! E o tempero é puro gostinho de casa..."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-default">
+                    Ver mais Avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyrright">
+                &copy 2025 Bruna Vitória
+            </span>
+            <div class="social_media-buttons">
+                <a href="https://wa.me/62992932542">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/brunavitoria_santosalves">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
